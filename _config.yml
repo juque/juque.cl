@@ -2,3 +2,6 @@ auto: true
 markdown: rdiscount
 permalink: /log/:year/:month/:day/:title/
 rdiscount extensions: [smart]
+name: juque.cl
+description: Anotaciones Empíricas, de Ocurrencia Esporádica y Naturaleza Ecléctica 
+url: http://juque.cl

@@ -3,11 +3,24 @@
   <head>
 	<meta charset="UTF-8">
     <meta name="author" content="Juan Pablo Aqueveque" />
-    <title>{{ page.title }}</title>
+    <link rel="alternate" type="application/rss+xml" href="/feed.xml">
+    <link rel="Shortcut Icon" href="http://juque.cl/favicon.ico" type="image/x-icon" />
+    <title>{{ page.title }} | Juan Pablo Aqueveque, Temuco, CL (juque)</title>
+
+    <!-- Geo -->
+    <!-- Más Información en: http://geotags.com/geo/, http://geourl.org/ -->
+    <meta name="geo.position" content="-38.7293;-72.5756" />
+    <meta name="geo.region" content="CL-AR" />
+    <meta name="geo.placename" content="Temuco" />
+    <meta name="geo.country" content="CL" />
+    <meta name="ICBM" content="-38.7293,-72.5756" />
+    <meta name="DC.title" content="juque" />
+
   </head>
   <body>
     <header>
-      <h1><a href="/">juque.cl</a></h1>
+      <h6><a href="/">juque.cl</a></h6>
+	  <div class="slogan">Anotaciones Empíricas, de Ocurrencia Esporádica y Naturaleza Ecléctica</div>
     </header>
     <section>
       {{ content }}
