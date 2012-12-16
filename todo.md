@@ -9,7 +9,7 @@ permalink: /todo/
 Cosas por hacer —or To Do— para que este sitio sea el mejor del mundo:
 
 * <del>Importar repositorio local a github.com</del> [done][github]! ([howTo][1])
-* Migrar entradas de ExpressionEngine
+* <del>Migrar entradas de ExpressionEngine</del>
 * layout responsivo
 * nube de tags
 * Implementar 
