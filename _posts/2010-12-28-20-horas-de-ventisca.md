@@ -1,0 +1,9 @@
+---
+layout: post
+title: 20 horas de ventisca
+tags : [video,vimeo]
+--- 
+
+<iframe src="http://player.vimeo.com/video/18213768" width="651" height="366" frameborder="0"></iframe><p><a href="http://vimeo.com/18213768">December 2010 Blizzard Timelapse</a> from <a href="http://vimeo.com/user4157263">Michael Black</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
+
+Una foto cada 5 minutos
