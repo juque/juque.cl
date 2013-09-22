@@ -1,0 +1,115 @@
+/**
+ * CSS juque.cl
+ * version: 19.ene.2013 16:32:56
+ */
+
+header[role="banner"] {
+    border-bottom:2px solid rgba(78,68,60,0.1);
+    padding:10px 0 20px 0;
+}
+
+.container {background-color:white;}
+
+
+#logo {
+    text-decoration:none;
+    color:#716c65;
+}
+
+/* navegacion */
+nav[role="navigation"] ul {
+    list-style:none;
+    margin:10px 0 0 0;
+    padding:0;
+}
+nav[role="navigation"] ul li {
+    float:left;
+    width:20%;
+}
+nav[role="navigation"] ul li a {
+    display:block;
+    float:left;
+    width:100%;
+    line-height:1.3em;
+    letter-spacing:3px;
+    text-decoration:none;
+    font-weight:bold;
+    font-size:16px;
+    color:#16a085;
+}
+
+#header {
+    text-align:center;
+    margin-bottom:20px;
+}
+
+#slogan {
+    font-family: Georgia, serif;
+    font-size: 23px;
+    font-style: italic;
+    font-weight: normal;
+    text-transform: normal;
+    letter-spacing: normal;
+    line-height: 3em;
+    color:#bdc3c7;
+}
+
+body {
+    border-top:10px solid #48c9b0;
+    font: normal 1.99em/1.8 'Ubunto Condensed', sans-serif; 
+    font-weight: 400;
+    background-color:#95a5a6;
+}
+
+footer {
+    margin-top:30px;
+    font-size:10px;
+    text-align:center;
+}
+
+/* la cosa responsiva */
+
+@media (max-width: 767px) {
+
+    #slogan {
+        margin-top:20px;
+    }
+
+    nav[role="navigation"] ul li {
+        float:none;
+        width:auto;
+    }
+
+    nav[role="navigation"] ul li a {
+        float:none;
+        display:inline;
+        width:auto;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    #slogan {
+        margin-top:20px;
+    }
+
+    nav[role="navigation"] ul li {
+        float:none;
+        width:auto;
+    }
+
+    nav[role="navigation"] ul li a {
+        float:none;
+        display:inline;
+        width:auto;
+    }
+
+}
+.paginacion {
+    margin-top:50px;
+}
+.post-body p,.post-body ul,.post-body ol,.post-body pre {margin-bottom:40px}
+.post-body h2 {color:#294749}
+header h1, h1.page-header {font-family:'Germania One', sans-serif; font-size:50px } 
+time {color:white;background-color:#BDBDBD;padding:5px;border-radius:5px} 

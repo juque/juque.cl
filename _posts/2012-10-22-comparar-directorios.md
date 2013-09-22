@@ -4,8 +4,6 @@ title: Comparar directorios
 tags : [linux,diff,comparar,directorios,convert,fotos]
 --- 
 
-# Comparar directorios
-
 Suponga usted que tiene el directorio `aa` con estos archivos:
 
     $ tree aa

@@ -1,8 +1,9 @@
 <!DOCTYPE HTML>
 <html lang="es">
   <head>
-	<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="author" content="Juan Pablo Aqueveque" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="alternate" type="application/rss+xml" href="/feed.xml">
     <link rel="Shortcut Icon" href="http://juque.cl/favicon.ico" type="image/x-icon" />
     <title>{{ page.title }} | Juan Pablo Aqueveque, Temuco, CL (juque)</title>
@@ -15,23 +16,48 @@
     <meta name="geo.country" content="CL" />
     <meta name="ICBM" content="-38.7293,-72.5756" />
     <meta name="DC.title" content="juque" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/juque.css" />
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Germania+One' rel='stylesheet' type='text/css'>
 
   </head>
   <body>
-    <header>
-      <h6><a href="/">juque.cl</a></h6>
-	  <div class="slogan">Anotaciones Empíricas, de Ocurrencia Esporádica y Naturaleza Ecléctica</div>
-    </header>
-    <section>
-      {{ content }}
-    </section>
-	<footer>
-		<ul>
-			<li><a href="/" title="Portada">Portada</a></li>
-			<li><a href="/acerca" title="Acerca">Acerca</a></li>
-			<li><a href="/contacto" title="Contacto">Contacto</a></li>
-			<li><a href="/todo" title="ToDo">ToDo</a></li>
-		</ul>
-	</footer>
+    <div class="container">
+        <header role="banner">
+            <div class="row">
+                <div class="col-md-3">
+                    <a id="logo" href="/">juque.cl</a>
+                </div>
+                <div id="slogan" class="col-md-9">
+                    Anotaciones Empíricas, de Ocurrencia Esporádica y Naturaleza Ecléctica
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-offset-3 col-md-9">
+                    <nav role="navigation">
+                        <ul class="clearfix" id="nav">
+                            <li><a href="/" title="Portada">Portada</a></li>
+                            <li><a href="/acerca" title="Acerca">Acerca</a></li>
+                            <li><a href="/contacto" title="Contacto">Contacto</a></li>
+                            <li><a href="/todo" title="ToDo">ToDo</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div class="row">
+            <div class="col-md-offset-3 col-md-9">
+                <section>
+                  {{ content }}
+                </section>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <footer>juque.cl - Juan Pablo Aqueveque, Temuco, Chile 2013. </footer>
+            </div>
+        </div>
+    </div>
   </body>
 </html>

@@ -4,13 +4,13 @@ layout: default
 
 <header>
 	<hgroup>
-		<h1>{{ page.title }}</h1> 
-		<h4><time datetime="{{ page.date | date: "%Y-%m-%dT%H:%M:%S" }}">{{ page.date | localize: "%e de %B, %Y"  }}</time></h4>
+		<h1 class="page-header">{{ page.title }}</h1> 
+		<p class="leader"><time datetime="{{ page.date | date: "%Y-%m-%dT%H:%M:%S" }}">{{ page.date | localize: "%e de %B, %Y" }}</time></p>
 	</hgroup>
 </header>
 
 <article>
-{{ content }}
+<div class="post-body">{{ content }}</div>
 </article>
 
 <div class="paginacion">
@@ -19,6 +19,6 @@ layout: default
     {% endif %}
         &bull;
     {% if page.next %} 
-        <a rel="next" href="{{ page.next.url }}">más reciente &rarr;</a>
+        <a rel="next" href="{{ page.next.url }}">más fresco &rarr;</a>
 {% endif %}
 </div>

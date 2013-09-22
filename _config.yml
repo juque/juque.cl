@@ -1,4 +1,3 @@
-auto: true
 markdown: rdiscount
 permalink: /log/:year/:month/:day/:title/
 rdiscount extensions: [smart]

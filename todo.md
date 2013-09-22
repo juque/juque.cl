@@ -4,7 +4,7 @@ title: ToDo
 permalink: /todo/
 ---
 
-# ToDo 
+<h1 class="page-header">ToDo</h1> 
 
 Cosas por hacer —or To Do— para que este sitio sea el mejor del mundo:
 
