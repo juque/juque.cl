@@ -8,7 +8,14 @@ header[role="banner"] {
     padding:10px 0 20px 0;
 }
 
-.container {background-color:white;}
+.container {
+    background-color:white;
+    margin-top:20px;
+    margin-bottom:20px;
+    -webkit-box-shadow: 2px 2px 25px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    2px 2px 25px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         2px 2px 25px 0px rgba(50, 50, 50, 0.75);
+}
 
 
 #logo {
@@ -35,7 +42,7 @@ nav[role="navigation"] ul li a {
     text-decoration:none;
     font-weight:bold;
     font-size:16px;
-    color:#16a085;
+    color:#c60063;
 }
 
 #header {
@@ -50,15 +57,14 @@ nav[role="navigation"] ul li a {
     font-weight: normal;
     text-transform: normal;
     letter-spacing: normal;
-    line-height: 3em;
+    line-height: 1.25em;
     color:#bdc3c7;
 }
 
 body {
-    border-top:10px solid #48c9b0;
     font: normal 1.99em/1.8 'Ubunto Condensed', sans-serif; 
     font-weight: 400;
-    background-color:#95a5a6;
+    background-color:#39595b;
 }
 
 footer {
@@ -109,7 +115,8 @@ footer {
 .paginacion {
     margin-top:50px;
 }
-.post-body p,.post-body ul,.post-body ol,.post-body pre {margin-bottom:40px}
+.post-body p,.post-body ul,.post-body ol,.post-body pre {margin-bottom:25px}
 .post-body h2 {color:#294749}
-header h1, h1.page-header {font-family:'Germania One', sans-serif; font-size:50px } 
-time {color:white;background-color:#BDBDBD;padding:5px;border-radius:5px} 
+header h1, h1.page-header {font-family:'Oswald', sans-serif; font-size:50px } 
+time {font-size:13px;color:#999;padding:5px;border-radius:5px} 
+h1.page-header {margin-bottom:5px;}
