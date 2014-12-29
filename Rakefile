@@ -18,7 +18,7 @@ task :np do
       file.puts "---"
     end
   end
-  system("/Applications/mvim #{path}")  
+  system("/usr/local/bin/vim #{path}")  
 
   exit 1
 end
