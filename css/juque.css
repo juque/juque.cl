@@ -9,7 +9,7 @@ header[role="banner"] {
 }
 
 .container {
-    background-color:white;
+    background-color:rgba(255, 255, 255, 0.90);
     margin-top:20px;
     margin-bottom:20px;
     -webkit-box-shadow: 2px 2px 25px 0px rgba(50, 50, 50, 0.75);
@@ -64,7 +64,7 @@ nav[role="navigation"] ul li a {
 body {
     font: normal 1.99em/1.8 'Ubunto Condensed', sans-serif; 
     font-weight: 400;
-    background-color:#39595b;
+    background:#387E7C url(/img/annie-spratt-176628.jpg) no-repeat;
 }
 
 footer {
