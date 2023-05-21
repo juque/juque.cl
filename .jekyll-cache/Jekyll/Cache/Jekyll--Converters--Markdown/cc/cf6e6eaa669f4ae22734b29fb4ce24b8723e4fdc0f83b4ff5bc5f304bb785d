@@ -1,0 +1,52 @@
+I"�<p>Suponga usted que tiene el directorio <code class="language-plaintext highlighter-rouge">aa</code> con estos archivos:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ tree aa
+aa
+├── 99.txt
+├── a.txt
+├── b.txt
+├── c.txt
+└── rrr.txt
+
+0 directories, 5 files
+</code></pre></div></div>
+
+<p>Suponga ahora que tiene otro directorio de nombre <code class="language-plaintext highlighter-rouge">bb</code> con estos otros archivos:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ tree bb
+bb
+├── 99.txt
+├── a.txt
+├── aaa.txt
+├── b.txt
+└── c.txt
+
+0 directories, 5 files
+</code></pre></div></div>
+
+<p>Problema: ¿Como comparar los archivos de ambos directorios?, es decir, <strong>¿tiene
+<code class="language-plaintext highlighter-rouge">aa</code> los mismos archivos que <code class="language-plaintext highlighter-rouge">bb</code> y viceversa?</strong>.</p>
+
+<h2 id="diff-al-rescate"><code class="language-plaintext highlighter-rouge">diff</code> al rescate</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ diff &lt;(ls -1a ./aa) &lt;(ls -1a ./bb)
+4a5
+&gt; aaa.txt
+7d7
+&lt; rrr.txt
+</code></pre></div></div>
+
+<h2 id="conclusión">Conclusión</h2>
+
+<p>El archivo <code class="language-plaintext highlighter-rouge">aaa.txt</code> no está en el directorio <code class="language-plaintext highlighter-rouge">aa</code> y el archivo <code class="language-plaintext highlighter-rouge">rrr.txt</code> no está en el
+directorio <code class="language-plaintext highlighter-rouge">bb</code>. Fin del misterio.</p>
+
+<h2 id="problema-del-mundo-real">Problema del mundo real</h2>
+
+<p>Estaba procesando 1500 fotos usando <a href="http://www.imagemagick.org/script/convert.php">convert</a> (cambiando de tamaño,
+como dicen por ahí: <em>escalando</em>), el proceso <strong>se cortó a mitad de camino</strong> por un
+error en la conexión con el servidor, como ya me había tomado 20 minutos llegar
+a 700 fotos no iba a comenzar todo de nuevo. Por eso busqué las fotos que no
+habían sido procesadas y me ahorré un tiempo valioso.</p>
+
+:ET

@@ -1,0 +1,10 @@
+I"y<p>Al contrario nuestro (los latinos) para la gente inglesa el asunto del UTF-8 <strong>no es un gran problema</strong>, por eso escasean artículos de calidad que aborden el tema. Acá hay uno muy bueno, con el cual podrás darle full soporte UTF8 a tu base de datos MySQL:</p>
+
+<blockquote>
+  <p>¿Estás usando el charset UTF8 en tu base de datos MySQL?, en este artículo explicaré porqué tu deberías cambiarte más bien a <code class="language-plaintext highlighter-rouge">utf8mb4</code>,  y cómo hacerlo.</p>
+</blockquote>
+
+<p><a href="http://mathiasbynens.be/notes/mysql-utf8mb4">How to support full Unicode in MySQL databases</a> (inglés)</p>
+
+<p><strong>Post scriptum</strong>: calza perfecto con <a href="http://v3.juque.cl/weblog/2006/01/25/ascii-unicode-utf8-y-la-iatarnaaianalizaaian-parte-i.html">algún otro artículo</a> que <em>alguien</em> escribió alguna vez.</p>
+:ET

@@ -1,0 +1,8 @@
+I"x<p>Sitios y servicios que informan tu IP hay millones, pero no creo que tan geek y
+elegante como este, vaya a su línea de comandos y ejecute:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>curl ifconfig.me
+</code></pre></div></div>
+
+<p>Y hay muchas opciones más en <a href="http://ifconfig.me">ifconfig.me</a></p>
+:ET

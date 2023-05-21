@@ -1,0 +1,13 @@
+I"w<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># localhost
+scp .ssh/id_rsa.pub juanito@servidor:/home/juanito/
+echo "alias servidor='ssh juanito@servidor'" &gt;&gt; .bashrc
+source .bashrc 
+
+# servidor
+mkdir .ssh
+mv id_rsa.pub .ssh/authorized_keys
+chmod 700 .ssh
+chmod 600 .ssh/authorized_keys
+</code></pre></div></div>
+
+:ET

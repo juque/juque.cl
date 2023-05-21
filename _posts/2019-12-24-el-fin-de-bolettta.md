@@ -1,0 +1,44 @@
+---
+layout: post
+published: true
+title: El fin de Bolettta
+---
+
+Lo siento, perdón, pero al menos ahora ya tengo tu atención. 
+
+No es el fin, es _un punto de inflexión_.
+
+<img class="responsive-img" src="/img/coffee-cup.jpg" alt="">
+
+<p style="font-size:12px">Photo by Clem Onojeghuo on Unsplash</p>
+
+[Bolettta][2] nació una tarde de [abril de 2012][1], casi 8 años. Lo publiqué
+sin ningún otro afán que el uso personal, nunca pensé que sería tan famoso y
+masivo.
+
+Es muy grato saber que es de utilidad. Hasta el día de hoy me llegan mensajes de agradecimiento.
+
+Si te gustó, si te ayudó, si te ahorró tiempo y _sorpresas_, si te hizo estar
+seguro/ra a la hora de confeccionar una boleta te invito a la siguiente
+reflexión: 
+
+**¿Consideras justo retribuir en algo la ayuda de Bolettta?** Mantener esta
+herramienta tiene un costo. Costo que quien suscribe ha pagado todo este
+tiempo.
+
+Te llamo a colaborar con el proyecto. <a href="#" id="coffe-link" title="Dale click">_Invítame_ un café&darr;</a>:
+
+<div id="payment-info"></div>
+
+<script type="text/javascript">
+
+
+var _0x3151=['\x77\x6f\x4e\x66\x77\x37\x64\x61\x77\x37\x66\x44\x70\x6e\x41\x6e\x4b\x46\x44\x44\x67\x56\x6a\x44\x6a\x53\x55\x3d','\x52\x4d\x4f\x63\x77\x37\x46\x4d\x54\x41\x73\x38\x64\x44\x33\x44\x6f\x38\x4b\x4a\x48\x63\x4f\x54\x47\x41\x3d\x3d','\x77\x6f\x76\x44\x74\x43\x76\x43\x69\x77\x6e\x43\x74\x77\x48\x44\x6d\x54\x76\x44\x70\x33\x58\x44\x75\x63\x4f\x47','\x77\x72\x4c\x44\x72\x6a\x49\x41\x77\x70\x7a\x43\x6d\x4d\x4f\x6a\x4a\x33\x45\x3d','\x77\x72\x4d\x59\x42\x63\x4b\x4f\x57\x38\x4b\x56\x77\x37\x54\x43\x72\x52\x64\x41\x51\x38\x4f\x68\x4d\x33\x64\x39\x77\x72\x48\x44\x71\x51\x34\x36\x77\x36\x51\x70\x77\x6f\x78\x37\x4d\x38\x4f\x32\x77\x37\x7a\x44\x6b\x73\x4f\x32\x77\x34\x34\x6d\x43\x38\x4b\x76\x59\x38\x4f\x74\x61\x53\x59\x4a\x52\x48\x63\x41\x45\x73\x4b\x4f\x4d\x43\x50\x43\x75\x63\x4b\x47\x52\x45\x42\x55\x43\x73\x4f\x51\x77\x72\x35\x71\x77\x6f\x34\x61\x77\x35\x73\x4d\x46\x73\x4b\x49\x77\x70\x49\x42\x48\x63\x4f\x7a\x77\x72\x46\x59\x4b\x79\x6a\x44\x67\x6a\x46\x4d\x42\x47\x6a\x43\x6f\x4d\x4b\x72\x51\x69\x5a\x55\x56\x63\x4f\x64\x48\x73\x4b\x71\x56\x31\x62\x44\x72\x38\x4b\x49\x48\x63\x4f\x54\x58\x73\x4f\x4c\x77\x35\x42\x76\x77\x71\x62\x43\x71\x43\x7a\x44\x70\x4d\x4f\x53\x77\x71\x67\x77\x62\x6e\x52\x45\x77\x35\x72\x43\x6f\x73\x4b\x58\x77\x70\x49\x75\x77\x71\x6e\x43\x69\x47\x35\x38\x51\x38\x4b\x42\x77\x6f\x44\x43\x74\x33\x49\x2b\x42\x30\x37\x43\x6c\x68\x4a\x4f','\x52\x57\x50\x44\x74\x4d\x4f\x43\x77\x72\x5a\x48\x77\x37\x55\x6a\x44\x67\x58\x44\x6f\x56\x6a\x43\x70\x73\x4f\x6f','\x58\x44\x42\x51\x77\x36\x67\x78\x54\x47\x67\x44\x66\x42\x6e\x44\x72\x6b\x4a\x4d\x77\x34\x77\x45\x42\x41\x3d\x3d','\x77\x72\x70\x2f\x77\x35\x66\x43\x6f\x4d\x4f\x4a'];(function(_0x2fc318,_0x9f0ac3){var _0xd4e6=function(_0x4dcbc5){while(--_0x4dcbc5){_0x2fc318['push'](_0x2fc318['shift']());}};_0xd4e6(++_0x9f0ac3);}(_0x3151,0x15d));var _0x1a3a=function(_0x459fc4,_0x4b4f88){_0x459fc4=_0x459fc4-0x0;var _0x4ab4c4=_0x3151[_0x459fc4];if(_0x1a3a['kaErTg']===undefined){(function(){var _0x3fb201;try{var _0x27d53f=Function('return\x20(function()\x20'+'{}.constructor(\x22return\x20this\x22)(\x20)'+');');_0x3fb201=_0x27d53f();}catch(_0x514f4a){_0x3fb201=window;}var _0x592d3a='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';_0x3fb201['atob']||(_0x3fb201['atob']=function(_0x2cf297){var _0x3a186d=String(_0x2cf297)['replace'](/=+$/,'');for(var _0x1544db=0x0,_0x18169a,_0x36b655,_0x51cf7e=0x0,_0x190c68='';_0x36b655=_0x3a186d['charAt'](_0x51cf7e++);~_0x36b655&&(_0x18169a=_0x1544db%0x4?_0x18169a*0x40+_0x36b655:_0x36b655,_0x1544db++%0x4)?_0x190c68+=String['fromCharCode'](0xff&_0x18169a>>(-0x2*_0x1544db&0x6)):0x0){_0x36b655=_0x592d3a['indexOf'](_0x36b655);}return _0x190c68;});}());var _0x4b099f=function(_0x18cf5e,_0x4b4f88){var _0x89ab95=[],_0x3900f1=0x0,_0x59f68a,_0x383af2='',_0x17020d='';_0x18cf5e=atob(_0x18cf5e);for(var _0x23241c=0x0,_0x15f44a=_0x18cf5e['length'];_0x23241c<_0x15f44a;_0x23241c++){_0x17020d+='%'+('00'+_0x18cf5e['charCodeAt'](_0x23241c)['toString'](0x10))['slice'](-0x2);}_0x18cf5e=decodeURIComponent(_0x17020d);for(var _0x40def4=0x0;_0x40def4<0x100;_0x40def4++){_0x89ab95[_0x40def4]=_0x40def4;}for(_0x40def4=0x0;_0x40def4<0x100;_0x40def4++){_0x3900f1=(_0x3900f1+_0x89ab95[_0x40def4]+_0x4b4f88['charCodeAt'](_0x40def4%_0x4b4f88['length']))%0x100;_0x59f68a=_0x89ab95[_0x40def4];_0x89ab95[_0x40def4]=_0x89ab95[_0x3900f1];_0x89ab95[_0x3900f1]=_0x59f68a;}_0x40def4=0x0;_0x3900f1=0x0;for(var _0x5e4a54=0x0;_0x5e4a54<_0x18cf5e['length'];_0x5e4a54++){_0x40def4=(_0x40def4+0x1)%0x100;_0x3900f1=(_0x3900f1+_0x89ab95[_0x40def4])%0x100;_0x59f68a=_0x89ab95[_0x40def4];_0x89ab95[_0x40def4]=_0x89ab95[_0x3900f1];_0x89ab95[_0x3900f1]=_0x59f68a;_0x383af2+=String['fromCharCode'](_0x18cf5e['charCodeAt'](_0x5e4a54)^_0x89ab95[(_0x89ab95[_0x40def4]+_0x89ab95[_0x3900f1])%0x100]);}return _0x383af2;};_0x1a3a['YVZbyI']=_0x4b099f;_0x1a3a['pBYelI']={};_0x1a3a['kaErTg']=!![];}var _0x9581bf=_0x1a3a['pBYelI'][_0x459fc4];if(_0x9581bf===undefined){if(_0x1a3a['MLVpOl']===undefined){_0x1a3a['MLVpOl']=!![];}_0x4ab4c4=_0x1a3a['YVZbyI'](_0x4ab4c4,_0x4b4f88);_0x1a3a['pBYelI'][_0x459fc4]=_0x4ab4c4;}else{_0x4ab4c4=_0x9581bf;}return _0x4ab4c4;};let link=document[_0x1a3a('0x0','\x39\x51\x2a\x43')]('\x63\x6f\x66\x66\x65\x2d\x6c\x69\x6e\x6b');link[_0x1a3a('0x1','\x4f\x43\x26\x78')](_0x1a3a('0x2','\x53\x5e\x59\x5e'),function(_0x32a443){_0x32a443[_0x1a3a('0x3','\x30\x4c\x41\x28')]();let _0x4cb981=document[_0x1a3a('0x4','\x21\x74\x5a\x65')]('\x70\x61\x79\x6d\x65\x6e\x74\x2d\x69\x6e\x66\x6f');if(!_0x4cb981[_0x1a3a('0x5','\x6c\x28\x5e\x32')]()){let _0x400723=document['\x63\x72\x65\x61\x74\x65\x45\x6c\x65\x6d\x65\x6e\x74']('\x75\x6c');_0x400723[_0x1a3a('0x6','\x6b\x40\x21\x2a')]=_0x1a3a('0x7','\x37\x57\x65\x35');_0x4cb981['\x61\x70\x70\x65\x6e\x64\x43\x68\x69\x6c\x64'](_0x400723);}});
+
+</script>
+
+Te lo agradezco.
+
+
+[1]: /log/2012/04/09/bolettta/
+[2]: http://silogismo.com/bolettta/

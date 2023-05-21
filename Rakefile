@@ -1,6 +1,7 @@
 require 'rubygems'
 require 'optparse'
 require 'yaml'
+require 'date'
 
 task :np do
   OptionParser.new.parse!

@@ -1,0 +1,16 @@
+I"e<p>Típico: ¿Cómo saber que theme está configurado por defecto a una instalación Wordpress sin entrar al admin - es decir, vía MySQL:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SELECT * FROM wp_options WHERE 
+   option_name = 'template' OR 
+   option_name = 'stylesheet' OR 
+   option_name = 'current_theme'; 
+</code></pre></div></div>
+
+<p>¿Y cómo puedo setear el theme por defecto por si algo anda mal?</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>UPDATE wp_options SET option_value = 'Twenty Eleven' WHERE option_name = 'template';
+UPDATE wp_options SET option_value = 'twentyeleven' WHERE option_name = 'stylesheet';
+UPDATE wp_options SET option_value = 'twentyeleven' WHERE option_name = 'current_theme';
+</code></pre></div></div>
+
+:ET

@@ -1,0 +1,19 @@
+I"<pre>
+$ mkdir -p project/{lib/ext,bin,src,doc/{html,info,pdf},demo/stat/a}
+$ tree project
+project/
+|-- bin
+|-- demo
+|   `-- stat
+|       `-- a
+|-- doc
+|   |-- html
+|   |-- info
+|   `-- pdf
+|-- lib
+|   `-- ext
+`-- src
+</pre>
+
+<p>(Un código… vale más que mil palabras)</p>
+:ET

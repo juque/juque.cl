@@ -1,0 +1,13 @@
+I"�<p>Hoy <a href="http://mashable.com/2010/12/16/leaked-slide-shows-yahoo-is-killing-delicious-other-web-apps/">se supo</a> (producto de un accidente) que posiblemente Yahoo! borraría a <a href="http://www.delicious.com/">Del.icio.us</a> de su «parrilla» de servicios webs. Este fue mi primer servicio social, por eso le guardo especial cariño, sería una pena sepultarlo.</p>
+
+<p>¿Cómo respaldar todos tus enlaces del.icio.us?, desde la línea de comandos y usando curl (<a href="http://www.delicious.com/help/api">Doc API</a>).</p>
+
+<pre>
+<code>curl https://[mi_usuario]:[mi_contraseña]@api.del.icio.us/v1/posts/all &gt; bookmarks.xml</code>
+</pre>
+
+<p>Hice mi respaldo, ¡2265 enlaces! desde diciembre del 2004. Trivia: mi primer enlace fue <a href="http://www.kusor.net/traducciones/brainjar.es/introdom1.es.html">un tutorial de DOM</a>.</p>
+
+<p>Mañana seguramente aparecerán <em>n+1</em> alternativas importables desde nuestro —posible—desahuciado del.icio.us.</p>
+
+:ET

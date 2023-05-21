@@ -1,0 +1,6 @@
+I"�<p>Hace mucho conocí a <a href="http://www.barebones.com/products/yojimbo/">Yojimbo</a>, escuché maravillas de el. Lo bajé, lo probé y me gustó tanto que lo compré. Todo este tiempo lo usé para guardar enlaces de proyectos en los que estaba trabajando, pero ahora que del.icio.us tiene los días contados decidí mover todos mis enlaces deliciosos a Yojimbo.</p>
+
+<p>Buscando en la red me encontré con un <a href="http://mkaz.com/archives/125/import-delicious-bookmarks-to-yojimbo/">script en perl</a> que ya no existe, pero luego me topé con un copia escrita en ruby: <a href="https://gist.github.com/112620/">delicious2yojimbo.rb</a>.</p>
+
+<p>No es social (aunque tiene un sistema de compartir en web), pero es funcional, rápido y seguro.</p>
+:ET

@@ -1,0 +1,14 @@
+I"O<p>He detectado un problema con el feed—gestionado por <a href="http://www.feedburner.com/" title="Visitar feedburner">Feedburner</a>—generado por el sitio (que corre en <a href="http://www.expressionengine.com" title="visitar ExpressionEngine">ExpressionEngine</a>). Estando en mi lector RSS hago clic en la entrada para ir al sitio y éste me arrojar un mensaje:</p>
+
+<pre>Invalid GET Data</pre>
+
+<p>Googleando el problema al parecer la solución está en <strong>quitar un paréntesis</strong> en el panel de control de Feedburner.com, específicamente en: <kbd>Analize &rarr; Configure Stats &rarr;  Customize...</kbd> y en <kbd>Campaign</kbd> cambiar:</p>
+
+<p><kbd>Feed: ${feedUri} (${feedName})</kbd></p>
+
+<p>a</p>
+
+<p><kbd>Feed: ${feedUri} ${feedName}</kbd></p>
+
+<p>Al menos ahora funcionar adecuadamente y el mensaje desapareció.</p>
+:ET

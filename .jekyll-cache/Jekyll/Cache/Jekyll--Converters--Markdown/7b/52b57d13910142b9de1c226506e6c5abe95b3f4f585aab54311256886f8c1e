@@ -1,0 +1,6 @@
+I"�<p>Estás trabajando en muchos archivos, quieres <strong>limpiar</strong> un poco tu área de trabajo, es decir, cerrar los archivo que ya no necesitas, no abstante quieres mantener el <strong>actual</strong> archivo, pues… <code class="language-plaintext highlighter-rouge">:qall</code> no sirve de mucho (honestamente no sirve de nada).</p>
+
+<p>Pero BufOnly viene al rescate. Con tan solo un <code class="language-plaintext highlighter-rouge">:BufOnly</code> este maravilloso plugin cerrará todo <strong>menos</strong> el archivo actual.</p>
+
+<p><a href="http://www.vim.org/scripts/script.php?script_id=1071">¡Vaya y descárguelo ya!, es gratis</a>.</p>
+:ET

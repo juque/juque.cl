@@ -1,0 +1,8 @@
+I"�<p>Genera un <code class="language-plaintext highlighter-rouge">phpinfo()</code> de un plumazo:</p>
+
+<pre><code>echo "&lt;?php echo phpinfo() ?&gt;" &gt; i.php</code></pre>
+
+<p>¿Por qué «i.php»?, porque no hay que ser <em>tan</em> obvios, la información que arroja esta función es demasiado valiosa</p>
+
+<p><strong>IMPORTANTE</strong>: <code>rm i.php</code> inmediatamente cuando ya no lo utilices.</p>
+:ET

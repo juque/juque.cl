@@ -1,0 +1,19 @@
+I"�<p>Acabo de instalar un pequeño plugin llamado <a href="http://expressionengine.com/forums/viewthread/111459/">Shortener</a> que acorta las direcciones (ú o URL’s). Los pasos para la instalación son:</p>
+
+<ol>
+  <li>Bajar y dejar el plugin en el directorio <em>plugins</em></li>
+  <li>Crear un nuevo grupo de plantillas, yo lo llamé «u»</li>
+  <li>Poner en la plantilla creada (<em>entry</em> es la plantilla que maneja la entrada individual):&lt;pre&gt;
+ &lt;?php {exp:shortener:redirect template=”blog/entry” entry_id=”{segment_2}”} ?&gt;&lt;/pre&gt;</li>
+  <li>Editar la plantilla que tiene el encabezado (<code>HEAD</code>) del sitio y poner:&lt;pre&gt;
+ {exp:shortener:meta template=”u” url_title=”{segment_3}”}&lt;/pre&gt;</li>
+  <li>No olvidar poner el enlace corto en la plantilla de la entrada individual (acá aparece en la esquina inferior derecha), de nada sirve todo esto si no es visible ni clickeable.&lt;pre&gt;
+{exp:shortener:link template=”s” url_title=”{segment_3}”}</li>
+</ol>
+<p>&lt;/pre&gt;</p>
+
+<h2 id="comentarios">Comentarios</h2>
+
+<p>Hay que mencionar que el plugin fue desarrollado para sitios de la forma <code>blog/entry/titulo-de-la-entrada</code>, pero el mío tiene otra forma—<code>/log/año/mes/entrada</code>, por lo tanto debí <em>hackear</em> un poco el plugin para adaptarlo a mis necesidades, en la función <code>Redirect()</code> simplemente traje la fecha de la entrada y le di el formato que tiene mi estructura, es decir, <em>año/mes</em>.</p>
+
+:ET

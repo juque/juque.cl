@@ -1,0 +1,13 @@
+I"�<p>Trabajando con algunos archivo CSS se me presentó el siguiente problema: ¿Cómo puedo insertar ciertas líneas del archivo A en el archivo B (que era en el cual estaba trabajando)?. Googleando un poco la solución finalmente llegué a esta—usando <a href="http://www.vim.org/">Vim</a> por supuesto.</p>
+
+<pre><code>:r !sed -n '49,51p' /tmp/header.css.tpl</code></pre>
+
+<p>Lo que hace es llamar a <code class="language-plaintext highlighter-rouge">sed</code> para insertar el rango 49,51 del archivo <code class="language-plaintext highlighter-rouge">/tmp/header.css.tpl</code>, el resultado es leído por el buffer. Bello.</p>
+
+<p>Perfeccionando un poco la inserción puedo incluso decirle a Vim en qué parte del archivo B puedo insertar el trozo de código, en el ejemplo a partir de la línea 33:</p>
+
+<pre><code>:33r !sed -n '49,51p' /tmp/header.css.tpl</code></pre>
+
+<p>Nuevamente <a href="http://www.vim.org/">vim</a> salvándome el día.</p>
+
+:ET

@@ -9,19 +9,24 @@ header[role="banner"] {
 }
 
 .container {
-    background-color:rgba(255, 255, 255, 0.90);
-    margin-top:20px;
-    margin-bottom:20px;
-    -webkit-box-shadow: 2px 2px 25px 0px rgba(50, 50, 50, 0.75);
-    -moz-box-shadow:    2px 2px 25px 0px rgba(50, 50, 50, 0.75);
-    box-shadow:         2px 2px 25px 0px rgba(50, 50, 50, 0.75);
 }
-
 
 #logo {
-    text-decoration:none;
-    color:#716c65;
+  text-decoration:none;
+  color:white;
+  background-color: black;
+  font-family: 'Lato', sans-serif;
+  padding: 30px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  font-size: 23px;
+  color: #fff;
+  line-height: 80px;
+  text-align: center;
+  background: #000
 }
+
 
 /* navegacion */
 nav[role="navigation"] ul {
@@ -42,7 +47,7 @@ nav[role="navigation"] ul li a {
     text-decoration:none;
     font-weight:bold;
     font-size:16px;
-    color:#c60063;
+    color:#000;
 }
 
 #header {
@@ -51,20 +56,20 @@ nav[role="navigation"] ul li a {
 }
 
 #slogan {
+    padding-top: 10px;
     font-family: Georgia, serif;
-    font-size: 23px;
-    font-style: italic;
+    font-size: 18px;
     font-weight: normal;
-    text-transform: normal;
     letter-spacing: normal;
     line-height: 1.25em;
     color:#bdc3c7;
 }
 
 body {
+    border-top: 7px solid black;
     font: normal 1.99em/1.8 'Ubunto Condensed', sans-serif; 
     font-weight: 400;
-    background:#387E7C url(/img/annie-spratt-176628.jpg) no-repeat;
+    background-color: #f9f9f9;
 }
 
 footer {
@@ -120,3 +125,12 @@ footer {
 header h1, h1.page-header {font-family:'Oswald', sans-serif; font-size:50px } 
 time {font-size:13px;color:#999;padding:5px;border-radius:5px} 
 h1.page-header {margin-bottom:5px;}
+
+.responsive-img {
+  max-width:100%;
+  height:auto;
+}
+
+.post__date {
+  font-size: 13px;
+}

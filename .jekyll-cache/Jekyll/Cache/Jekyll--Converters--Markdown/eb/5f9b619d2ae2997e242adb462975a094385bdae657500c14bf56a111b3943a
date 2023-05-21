@@ -1,0 +1,11 @@
+I"]<p>Asumiendo que quieres comprimir un directorio completo, pero en el existe un sub-directorio (en cualquier nivel) con nombre «cache» que deseas excluir de la compresión, el comando sería:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> tar --exclude=cache -cvzf directorio.tar.gz directorio 
+</code></pre></div></div>
+
+<p>Listar el contenido y comprobar que todo ha ido bien:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> tar -ztvf directorio.tar.gz
+</code></pre></div></div>
+
+:ET

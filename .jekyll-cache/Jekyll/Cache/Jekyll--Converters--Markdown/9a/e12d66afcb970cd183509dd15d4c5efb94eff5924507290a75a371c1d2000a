@@ -1,0 +1,33 @@
+I"9<p>Estaba actualizando el blog de la familia cuando me doy cuenta que en la consola de Wordpress se me indicaba que el plugin akismet tenía una nueva versión. Fui a la línea de comandos y actualicé:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>svn update
+</code></pre></div></div>
+
+<p>Pero no funcionó, el plugin seguía desactualizado, aún cuando forma parte de core WP. En ese momento me di cuenta que el plugin forma parte de <a href="http://plugins.svn.wordpress.org/akismet/trunk/">otro repositorio</a>, y que cuando se actualiza WP el mismo svn se encarga de ir al otro repositorio y actualizar akismet. Pero el problema es que akismet no apuntaba a su <em>trunk</em> si no que a un <em>tags</em> (<a href="http://plugins.svn.wordpress.org/akismet/tags/2.5.0/">la 2.5.0</a>), por lo tanto había que reconfigurar el svn para que apuntara a la versión actual y oficial, es decir, al trunk.</p>
+
+<p>Los pasos son:</p>
+
+<ol>
+  <li>Ir a directorio <em>plugins</em></li>
+  <li>borrar el directorio akismet: <code class="language-plaintext highlighter-rouge">rm -rf akismet</code></li>
+  <li>A modo de información, mostrar el repositorio externo: <code class="language-plaintext highlighter-rouge">svn propget svn:externals</code></li>
+  <li>Eliminar la entrada: <code class="language-plaintext highlighter-rouge">svn propdel svn:externals</code></li>
+  <li>
+    <p>Vincular la nueva (ojo el punto al final y las comillas simples)</p>
+
+    <p><code>svn propset svn:externals 'akismet http://plugins.svn.wordpress.org/akismet/trunk' .</code></p>
+  </li>
+  <li>
+    <p>Vamos al raíz de WP y actualizamos:</p>
+
+    <p><code class="language-plaintext highlighter-rouge">svn update</code></p>
+
+    <p><code class="language-plaintext highlighter-rouge">Fetching external item into 'wp-content/plugins/akismet'</code></p>
+
+    <p><code class="language-plaintext highlighter-rouge">External at revision 324182.</code></p>
+
+    <p><code class="language-plaintext highlighter-rouge">At revision 17048.</code></p>
+  </li>
+  <li>Listo</li>
+</ol>
+:ET

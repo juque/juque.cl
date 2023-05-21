@@ -1,0 +1,16 @@
+I"�<p>Este es un problema más frecuente que lo que se pueda pensar, ¿cómo hago una consulta MySQL que debe comparar fechas usando campos que no son del tipo <code class="language-plaintext highlighter-rouge">DATE</code> si no más bien <code class="language-plaintext highlighter-rouge">VARCHAR</code>?.</p>
+
+<p>El otro día me pidieron listar todos los usuarios de un sistema—dicho sea de paso: ¡sistema que <strong>no</strong> es de mi autoría!—que están de cumpleaños en Enero. Pan comido, dije, pero buseando en la base de datos me di cuenta que el campo fecha de nacimiento no era del tipo <code class="language-plaintext highlighter-rouge">DATE</code> «pan no tan comido».</p>
+
+<p>Pero gracias al creador del iPhone que en MySQL existe una función que pasa cadenas a fechas:<a href="http://dev.mysql.com/doc/refman/5.1/en/date-and-time-functions.html#function_str-to-date">STR_TO_DATE</a>, ¡aleluya!.</p>
+
+<p>Así y todo, finalmente la consulta quedó:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SELECT * 
+  FROM 
+     usuarios 
+  WHERE 
+     MONTH(CURDATE()) = MONTH(STR_TO_DATE(fnacimiento,'%d-%m-%Y'));
+</code></pre></div></div>
+
+:ET

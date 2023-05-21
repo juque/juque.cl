@@ -1,0 +1,23 @@
+I"<p>Los pequeños detalles suelen ser muy molestos.</p>
+
+<p>Usando gmail <em>algunas veces</em> digitamos <strong>mal</strong> una dirección de correo, por
+ejemplo <code class="language-plaintext highlighter-rouge">juanito@gmail.cl</code>, bien sabemos que el dominio <code class="language-plaintext highlighter-rouge">gmail.cl</code> no existe
+pero <strong>bastó con digitarlo</strong> una vez mal para que gmail nos recuerde una y otra
+vez esa dirección cuando en realidad queremos enviar correo
+a <code class="language-plaintext highlighter-rouge">juanito@gmail.com</code>.</p>
+
+<p>Lo que en un 99% suele ser muy útil (el autoguardado de direcciones) esta vez se
+torna una piedra en el zapato, ¿<strong>cómo diantres le digo a gmail que borre</strong> esa
+dirección y no me la <em>sugiera</em> nunca más?.</p>
+
+<p>Así:</p>
+
+<ol>
+  <li>Vaya a <strong>Contactos</strong> (<kbd>g + c</kbd> si tiene <a href="https://support.google.com/mail/answer/6594?hl=es">los atajos de teclado
+activados</a>).</li>
+  <li>Escriba en la caja de búsqueda la dirección que está mal digitada, luego clic en <em>Buscar</em>.</li>
+  <li>En el listado que le mostrará mire en “Otros contactos”, ahí debería estar la
+dichosa dirección. Seleccione y borre. Ahora disfrute ese momento.</li>
+</ol>
+
+:ET

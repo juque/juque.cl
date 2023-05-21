@@ -1,0 +1,57 @@
+I"�<h3 id="problema">Problema:</h3>
+
+<pre>
+PHP Notice:  Sorry, your PCRE extension does not support UTF8 
+which is needed for the I18N core in 
+/usr/share/php/Zend/Locale/Format.php on line 769
+</pre>
+
+<h3 id="verficación-del-problema">Verficación del problema:</h3>
+
+<pre>
+$ pcretest -C
+PCRE version 6.6 06-Feb-2006
+Compiled with
+  UTF-8 support
+  No Unicode properties support
+  Newline character is LF
+  Internal link size = 2
+  POSIX malloc threshold = 10
+  Default match limit = 10000000
+  Default recursion depth limit = 10000000
+  Match recursion uses stack
+</pre>
+
+<h3 id="solución">Solución:</h3>
+
+<p>Descargar: <a href="http://dl.dropbox.com/u/66131/pcre-66-27x86_64.rpm">pcre-6.6-2.7.x86_64.rpm</a> ← PCRE 6.6 for CentOS 5.2 64-bit</p>
+
+<h3 id="instalar">Instalar:</h3>
+
+<pre>
+# rpm -Uvh pcre-6.6-2.7.x86_64.rpm
+</pre>
+
+<h3 id="verificar-solución">Verificar solución:</h3>
+
+<pre>
+$ pcretest -C
+PCRE version 6.6 06-Feb-2006
+Compiled with
+  UTF-8 support
+  <strong>Unicode properties support</strong>
+  Newline character is LF
+  Internal link size = 2
+  POSIX malloc threshold = 10
+  Default match limit = 10000000
+  Default recursion depth limit = 10000000
+  Match recursion uses stack
+</pre>
+
+<h3 id="reiniciar-apache">Reiniciar Apache.</h3>
+<pre>
+# /etc/init.d/httpd restart
+</pre>
+<p>Sacado de: <a href="http://chrisjean.com/2009/01/31/unicode-support-on-centos-52-with-php-and-pcre/">Unicode Support on CentOS 5.2 with PHP and PCRE</a></p>
+
+:ET

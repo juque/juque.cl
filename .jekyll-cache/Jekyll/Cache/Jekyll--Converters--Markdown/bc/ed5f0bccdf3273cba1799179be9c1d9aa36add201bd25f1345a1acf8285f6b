@@ -1,0 +1,43 @@
+I"�<p>El problema era el siguiente:</p>
+
+<p>Una inmensa cantidad de archivos de la forma <code class="language-plaintext highlighter-rouge">bla.txt</code> que debían tener la forma
+<code class="language-plaintext highlighter-rouge">BLA.txt</code>, o sea <em>en mayúsculas</em> su nombre y la extensión en <em>baja</em>.</p>
+
+<p>Linux (o mejor dicho el paquete <code class="language-plaintext highlighter-rouge">util-linux</code>) viene con un <a href="http://linux.die.net/man/1/rename">rename
+</a>. Pero lamentablemente <em>es muy</em> básico.</p>
+
+<p>Pero existe una versión Perl que es <strong>mucho más completa</strong>, <a href="http://search.cpan.org/~rmbarker/File-Rename-0.06/rename.PL">rename.pl</a>. 
+Y esta acepta—como es de esperar—expresiones regulares.</p>
+
+<h3 id="instalación">Instalación</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>yum install perl-CPAN
+cpan
+install File::Rename
+</code></pre></div></div>
+
+<p>Listo. Comprobamos.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/usr/local/bin/rename --help
+</code></pre></div></div>
+
+<p>Y ahora estamos en condiciones de <strong>hacer la tarea</strong>:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rename 's/([^.]*).(.*)/\U$1.\L$2/' *
+</code></pre></div></div>
+
+<p>Boom!.</p>
+
+<h3 id="algunas-perlas">Algunas perlas:</h3>
+
+<p>Cambiará todo a <code class="language-plaintext highlighter-rouge">BLA.TXT</code>:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rename 'y/A-Z/a-z/' *
+</code></pre></div></div>
+
+<p>Cambiará todo a <code class="language-plaintext highlighter-rouge">bla.txt</code>:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rename 'y/a-z/A-Z/' *
+</code></pre></div></div>
+
+:ET

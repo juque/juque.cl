@@ -1,0 +1,26 @@
+I"^<p>Dicen que no poner un «hola mundo» como primer post/registro da mala suerte. Acá no desafiaremos a la <em>señora</em> esta.</p>
+
+<p>Este sitio ahora es gestionado por <a href="https://github.com/mojombo/jekyll" title="Home del proyecto">Jekyll</a> — un generador de archivo estáticos basado en Ruby. Las <a href="http://pages.github.com/" title="github:pages"><em>pages</em> de github</a> están gestionadas por Jekyll.</p>
+
+<h3 id="primer-problema">Primer problema</h3>
+
+<p>La fecha de las entradas las quería en Español, para aquello usé un plugin, los pasos para activarlo y usarlo son:</p>
+
+<ol>
+  <li>Crea dos carpeta: <code class="language-plaintext highlighter-rouge">_plugins</code> y <code class="language-plaintext highlighter-rouge">_locales</code>.</li>
+  <li>En <code class="language-plaintext highlighter-rouge">_plugins</code> <a href="https://github.com/gacha/gacha.id.lv/blob/master/_plugins/i18n_filter.rb">descarga este script</a> (no olvides setear la variable <code class="language-plaintext highlighter-rouge">LOCALE</code>).</li>
+  <li>En <code class="language-plaintext highlighter-rouge">_locales</code> <a href="https://github.com/svenfuchs/rails-i18n/tree/master/rails/locale">descarga tu <em>sabor</em> de locale</a>, en mi caso <code class="language-plaintext highlighter-rouge">es-CL</code>.</li>
+  <li>Listo, ahora podrás hacer <code class="language-plaintext highlighter-rouge">post.date | localize: "%e de %B, %Y"</code>.</li>
+</ol>
+
+<h3 id="tutorial-de-jekyll">¿Tutorial de Jekyll?</h3>
+
+<ol>
+  <li><a href="http://klepas.org/jekyll-a-static-site-generator/">Jekyll a static site generator</a></li>
+  <li><a href="http://blog.rayapps.com/2010/08/09/moving-blog-from-wordpress-com-to-jekyll/">Moving blog from wordpress com to jekyll</a></li>
+  <li><a href="https://github.com/mojombo/jekyll/wiki/Sites">Sitios que usan jekyll</a> <code class="language-plaintext highlighter-rouge">#tip</code>: mira los <em>fuentes</em>.</li>
+</ol>
+
+<p><strong>Actualización</strong>: <a href="https://github.com/juque/juque.cl" title="juque.cl en github">juque.cl en github</a> (no podiamos ser menos).</p>
+
+:ET

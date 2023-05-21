@@ -1,0 +1,13 @@
+I"<p>Donde la base de datos se llama <code class="language-plaintext highlighter-rouge">acme</code>, el usuario <code class="language-plaintext highlighter-rouge">juanito</code> y la tabla <code class="language-plaintext highlighter-rouge">usuario</code>.</p>
+
+<p>Exporta <strong>sólo datos</strong>, una fila, una inserción:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mysqldump --no-create-info --extended-insert=false --compact -u juanito -p acme usuario
+</code></pre></div></div>
+
+<p>Exporta <strong>sólo la estructura</strong>:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mysqldump -d --compact -u juanito -p acme usuario
+</code></pre></div></div>
+
+:ET

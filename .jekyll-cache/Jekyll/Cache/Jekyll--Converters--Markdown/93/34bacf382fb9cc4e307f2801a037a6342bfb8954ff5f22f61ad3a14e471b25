@@ -1,0 +1,22 @@
+I"�<h1 class="page-header">ToDo</h1>
+
+<p>Cosas por hacer —or To Do— para que este sitio sea el mejor del mundo:</p>
+
+<ul>
+  <li><del>Importar repositorio local a github.com</del> <a href="https://github.com/juque/juque.cl">done</a>! (<a href="http://stackoverflow.com/questions/4658606/import-existing-source-code-to-github">howTo</a>)</li>
+  <li><del>Migrar entradas de ExpressionEngine</del></li>
+  <li>layout responsivo</li>
+  <li>nube de tags</li>
+  <li>Implementar
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">https://github.com/padenot/jekyll-newpost</code> ó</li>
+      <li><code class="language-plaintext highlighter-rouge">https://github.com/talison/jekyll-cmd-line</code></li>
+    </ul>
+  </li>
+  <li>implementar un sitemap.xml</li>
+  <li><del>implementar archivo RSS</del> <a href="http://juque.cl/feed.xml">done!</a></li>
+  <li>URI favicon</li>
+  <li><del>sincronización local-remove</del> (rsync)</li>
+</ul>
+
+:ET

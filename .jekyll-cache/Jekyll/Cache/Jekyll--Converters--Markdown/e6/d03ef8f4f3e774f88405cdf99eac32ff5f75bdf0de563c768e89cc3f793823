@@ -1,0 +1,34 @@
+I"s<p>Si te gusta usar <a href="http://en.wikipedia.org/wiki/SQL*Plus"><code class="language-plaintext highlighter-rouge">sqlplus</code></a> y odias que <strong>no tenga</strong> historial de comandos lo siguiente te puede hacer la vida más fácil.</p>
+
+<p>Existe una utilidad que permite tener un historial de tus comandos, se llama <code class="language-plaintext highlighter-rouge">rlwrap</code>.</p>
+
+<blockquote>
+  <p>rlwrap is a wrapper that uses the GNU readline library to allow the editing of
+keyboard input for any other command. Input history is kept between
+invocations, separately for each command; history completion and search work
+as in bash and completion word lists can be specified on the command line.</p>
+</blockquote>
+
+<p>Los pasos para instalarla y correrla son:</p>
+
+<ol>
+  <li><a href="http://utopia.knoware.nl/~hlub/uck/rlwrap/#rlwrap">Descargar <code class="language-plaintext highlighter-rouge">rlwrap</code></a>.</li>
+  <li>Es requisito tener Readline - <a href="http://cnswww.cns.cwru.edu/php/chet/readline/rltop.html">instalar Readline</a>.</li>
+  <li>
+    <p>Descomprime <code class="language-plaintext highlighter-rouge">rlwrap</code> e instala:</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> $ ./configure
+ $ make
+ $ make install
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Correr</p>
+
+ 	$ rlwrap sqlplus USUARIO/PASS@tns
+  </li>
+</ol>
+
+<p>Boom!, ahora tienes <code class="language-plaintext highlighter-rouge">sqlplus</code> con historial de comandos (<code class="language-plaintext highlighter-rouge">Ctrl+r</code> es ahora tu copiloto).</p>
+
+:ET

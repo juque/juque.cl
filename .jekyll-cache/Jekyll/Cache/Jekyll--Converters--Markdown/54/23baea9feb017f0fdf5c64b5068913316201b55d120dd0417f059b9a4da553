@@ -1,0 +1,16 @@
+I"�<p>Estaba buscando un trozo de código que puse y luego borre en un proyecto
+versionado con mercurial - no recordaba la revisión, lo único que tenía en mente
+fue que puse un texto de <em>sumario</em> bastante descriptivo. Pero hacer un <code class="language-plaintext highlighter-rouge">hg log</code> en 
+un proyecto con más de 900 revisiones <strong>no es útil</strong>.</p>
+
+<p>Aplicar <code class="language-plaintext highlighter-rouge">grep</code> a la salida del log tampoco me servía de mucho porque no muestra
+el número de revisión.</p>
+
+<p>Luego recordé que mercurial tiene la posibilidad de personaliza el log:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>hg log --template "{rev} - {desc}\n" | grep TEXTO_BUSCADO
+</code></pre></div></div>
+
+<p>¡Asunto resuelto! — <a href="http://hgbook.red-bean.com/read/customizing-the-output-of-mercurial.html">más información</a>.</p>
+
+:ET

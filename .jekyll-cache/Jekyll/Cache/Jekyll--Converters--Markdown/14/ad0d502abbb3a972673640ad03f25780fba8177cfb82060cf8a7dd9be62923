@@ -1,0 +1,4 @@
+I"�<p>Estaba compartiendo un documento CSV con un colega cuando traté de transformarlo en texto en columnas usando Numbers pero—por lo que investigué—no es posible.</p>
+
+<p>Pero luego recordé Google Docs Hojas de Cálculo (o Spreadsheet) y acá sí funciona, pero muy al estilo google: <code class="language-plaintext highlighter-rouge">=SPLIT(array, delimiter)</code>, es decir, <code class="language-plaintext highlighter-rouge">=split(A1,",")</code></p>
+:ET

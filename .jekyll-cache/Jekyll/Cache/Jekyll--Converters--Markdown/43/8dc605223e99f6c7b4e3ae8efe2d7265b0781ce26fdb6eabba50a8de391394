@@ -1,0 +1,23 @@
+I"�<p>Supongamos que tienes un archivo txt que contiene muchas URLs de imágenes:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ cat urls.txt
+
+https://c2.staticflickr.com/8/7214/7377987498_9b9a9fa852_c.jpg
+https://c2.staticflickr.com/8/7303/11624120355_703921f4d2_c.jpg
+https://c2.staticflickr.com/8/7468/16056448100_8633ae0a0b_c.jpg
+</code></pre></div></div>
+
+<p>Ahora quieres descargar esas fotos pero generando una secuencia, por ejm: <code class="language-plaintext highlighter-rouge">auto_1.jpg</code>, <code class="language-plaintext highlighter-rouge">auto_2.jpg</code>, etc.</p>
+
+<p>En solo una línea de comandos puedes hacer lo siguiente:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ cat -b urls.txt | while read N U; do $(curl -o auto_$N.jpg $U); done
+</code></pre></div></div>
+
+<h2 id="bonus">Bonus</h2>
+
+<p>¿Quieres fotos aleatorias para tu maqueta?, servido:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>for i in {1..10}; do curl -L -o "foto_$i.jpg" https://source.unsplash.com/random/500x500;sleep 3; done
+</code></pre></div></div>
+:ET
