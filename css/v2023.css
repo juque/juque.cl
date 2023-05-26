@@ -1,0 +1,172 @@
+
+@font-face {
+    font-family: Adelle Sans;
+    src: url(/assets/fonts/adellesans-regular-webfont.woff2) format("woff2"),url(/assets/fonts/adellesans-regular-webfont.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: fallback
+}
+
+@font-face {
+    font-family: Adelle Sans;
+    src: url(/assets/fonts/adellesans-bold-webfont.woff2) format("woff2"),url(/assets/fonts/adellesans-bold-webfont.woff) format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: fallback
+}
+
+@font-face {
+    font-family: Adelle Sans;
+    src: url(/assets/fonts/adellesans-italic-webfont.woff) format("woff"),url(/assets/fonts/adellesans-italic-webfont.woff) format("woff");
+    font-weight: 400;
+    font-style: italic;
+    font-display: fallback
+}
+
+@font-face {
+    font-family: Gilroy;
+    src: url(/assets/fonts/gilroy-bold-webfont.woff2) format("woff2"),url(/assets/fonts/gilroy-bold-webfont.woff) format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: fallback
+}
+
+@font-face {
+    font-family: Gilroy;
+    src: url(/assets/fonts/gilroy-black-webfont.woff2) format("woff2"),url(/assets/fonts/gilroy-black-webfont.woff) format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: fallback
+}
+
+:root {
+  --font-main: "Adelle Sans","Droid Sans",-apple-system,"Helvetica Neue","Segoe UI","Arial",sans-serif;
+  --font-heading: "Gilroy","Avenir","Century Gothic",-apple-system,"Helvetica Neue","Segoe UI","Roboto",sans-serif;
+}
+
+html {
+  font-family: Adelle Sans,Droid Sans,-apple-system,Helvetica Neue,Segoe UI,Arial,sans-serif;
+  font-family: var(--font-main);
+}
+
+.header {
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+}
+
+.header__inner {
+  padding: .3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  column-gap: 10px;
+}
+
+nav li {
+  margin:0;
+  padding: 0;
+  list-style: none;
+}
+
+nav a {
+  display: inline-block;
+}
+
+main, footer, .slogan {
+  margin: 0 auto;
+}
+
+main {
+  /* border:1px solid green; */
+  line-height: 30px;
+  font-size: 21.4px;
+  color: #25333a;
+}
+
+footer, .slogan {
+  text-align: center;
+  font-family: var(--font-heading);
+  font-weight: 900;
+}
+
+footer {
+  padding-top: 5rem;
+  margin-bottom: 20rem;
+}
+
+time {
+  color: #aeaeae;
+  font-size: 15px;
+}
+
+#logo {
+  font-family: 'Secular One', sans-serif;
+  font-size: 30px;
+  font-weight:bold;
+  border-bottom: 5px solid #23d8a0;
+  padding-bottom: 3px;
+}
+
+.slogan {
+  padding: 3rem 0;
+  font-size: 1.8rem;
+  color: white;
+}
+
+.header__outer {
+  height: 30vh;
+  background: #25333a url(/assets/svgs/wave-3.svg) no-repeat center bottom;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.pagination > a {
+  display: block;
+}
+
+nav {
+  display: none;
+}
+
+.icon-twitter, .icon-github {
+  width: 25px;
+  height: 25px;
+}
+
+a .icon-twitter, a .icon-github {
+  color: white;
+  fill: white;
+  stroke: white;
+}
+
+@media screen and (min-width: 640px) {
+
+  nav {
+    margin-top: 10px;
+    display: block;
+  }
+
+  .header {
+    max-width: min(100vw, 1200px);
+    /* border:2px solid red; */
+  }
+  main {
+    /* border:1px solid red; */
+    max-width: min(70vw, 960px);
+  }
+}
