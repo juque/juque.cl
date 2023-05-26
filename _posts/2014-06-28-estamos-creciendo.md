@@ -22,8 +22,6 @@ pueden lograr muchas cosas, incluso las inalcanzables. Y si no se alcanzan Gary
 también instruyó a nuestros niños: «se entregó todo, no se pudo, pero ahora
 viene la copa América».
 
-![el penal de jara](http://i.imgur.com/QgDE5Lil.jpg)
-
 El niño llamado selección chilena de fúlbol está creciendo, tenemos estilo,
 ganamos respecto ahora solo nos queda una tarea pendiente: aprender a tirar
 penales.
