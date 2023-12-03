@@ -5,5 +5,11 @@ name: juque.cl
 description: Anotaciones Empíricas, de Ocurrencia Esporádica y Naturaleza Ecléctica 
 url: http://juque.cl
 
+plugins:
+  - jekyll-paginate
+
+paginate: 20
+paginate_path: "/log/page/:num"
+
 github_username: juque
 twitter_username: juque

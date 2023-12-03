@@ -6,7 +6,25 @@ title: juque.cl
 <h1 class="page-header">Log</h1>
 
 <ul class="post__list">
-{% for post in site.posts %}
+{% for post in paginator.posts %}
 <li><a href="{{ post.url }}" title="{{ post.title }}" >{{ post.title }}</a> - <span class="post__date">{{post.date | localize: "%e %b, %Y" }}</span> </li>
 {% endfor %}
 </ul>
+
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path  }}" class="previous">
+     Anterior 
+    </a>
+  {% else %}
+    <span class="previous">Anterior</span>
+  {% endif %}
+  <span class="page_number">
+    Page: {{ paginator.page  }} of {{ paginator.total_pages  }}
+  </span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path  }}" class="next">Siguiente</a>
+  {% else %}
+    <span class="next">Siguiente</span>
+  {% endif %}
+</div>
